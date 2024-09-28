@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASOCIACIÓN DE VIAJES: EL MIRADOR</title>
+    <link rel="stylesheet" href="../css/general.css">
+
+    <style>
+article {margin-left: 660px;} 
+			
+ 
+
+	form {
+	display: inline-block;
+	padding-left: 5px;
+	font-family:  serif;
+	
+	
+	}
+
+ 	form p {
+ 	font-size: 1em;
+ 	color: #424344;
+	}
+
+    </style>
+</head>
+<body>
+
+    <header id="cabecera">
+        <h1>ASOCIACIÓN DE VIAJES: EL MIRADOR</h1>
+        <img src="../imagenes_video/logoElMirador.png" alt="logo"/>
+    </header>
+
+    <nav>
+        <tr>
+            <td><a href="destinos.html">DESTINOS</a></td>
+            <td><a href="fotos.html">FOTOS</a></td>
+            <td><a href="contacta.html">CONTACTA</a></td>
+            
+
+        </tr>
+    </nav>
+
+    <section>
+		<div class="formulario">
+		<article>
+		<h2>Rellene estos datos para contactar y recibir mas información :</h2>
+			
+			<form name="formulario" action="#">
+				
+				
+				<fieldset>
+				<legend>Datos Personales</legend>
+					<p>Nombre </p>
+					<input type="text" name="nombre" placeholder="Escriba aqui..." required="required">
+				
+			
+					<p>Apellidos</p>
+					<input type="text" name="Apellidos" placeholder="Escriba aqui..." required="required">
+				
+					<p>Teléfono</p>
+					<input type="tel" name="telefono" placeholder="Escriba aqui..." required="required" >
+			
+				
+					<p>Email</p>
+					<input type="email" name="email" placeholder="Escriba aqui..." required="required">
+			
+				<br/>
+			
+					<p>Fecha de Nacimiento</p>
+					<input type="date" name="fecha" required="required">
+				
+					<p>Sexo</p>
+					<input type="radio" name="sexo" value="H" required="required">Hombre
+					<input type="radio" name="sexo" value="M" required="required">Mujer
+
+				<br/>
+				<br/>
+				
+				</fieldset>
+
+				
+			
+				
+				<fieldset>
+					<legend>Donación</legend>
+					<p>Cantidad</p>
+					<input type="number" name="cantidad" placeholder="€">
+				
+			
+					<p>Frecuencia</p>
+					<select>
+						<option value="1">Semanalmente</option>
+						<option value="2">Mensualmente</option>
+						<option value="3">Anualmente</option>
+						<option value="4">Donación única</option>
+					</select>
+					<br/>
+					<br/>
+			
+				</fieldset>
+				<br/>
+				<br/>
+				
+					<input style="color: red;" type="checkbox"> Deseo suscribirme al boletín de noticias
+			
+				<br/>
+				<br/>
+				<br/>
+				<input type="submit" value="   Enviar   ">
+				<input type="reset" value="  Borrar  ">
+				
+
+			</form>
+		</article>
+	</div>
+	</section>
+
+<!--
+	
+    <footer class="footer2">
+        <p>© 2024 El Mirador Todos los Derechos Reservados: elmirador@ong.org</p>
+            
+        
+        
+
+    </footer>
+    
+    -->
+</body>
+</html>

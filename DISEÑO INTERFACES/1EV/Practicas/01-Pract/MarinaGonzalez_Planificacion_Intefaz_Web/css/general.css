@@ -1,0 +1,208 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    text-align: center;
+    font-family: arial;
+    height: 100%;
+    
+   
+}
+
+#cabecera {
+    background-color: #E3F4FB;
+    background-position: center;
+    padding: 60px;
+    font-size: 1.2em;
+}
+
+#cabecera img{
+    width: 100px; 
+    height: 50px;
+    margin-top: 20px;
+   
+}
+
+header h1{
+    font-family: Copperplate Gothic, serif;
+    color: #7f8c8d;
+}
+
+nav {
+    padding: 20px; 
+    word-spacing: 16px;
+    background-color: #9BCADF; 
+
+}
+
+/*para quitar lo del enlace feo de una vez que seleccionas*/
+nav tr, td, a:link {
+    color: #E3F4FB;
+   
+}
+nav tr, td, a:visited {
+    color: #E3F4FB;
+   
+}
+
+nav a{
+    font-size: 1.5em;
+    font-family: serif; 
+}
+
+section {
+   
+    width: 1200px; 
+    height: 800px;
+    float: left;
+    } 
+
+article {
+     background-color: #B4DAEB;
+     padding-top: 30px;
+     padding-bottom: 120px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+article p{
+    margin-left: 2%;
+    color:  #515a5a;
+   margin-bottom: 3%;
+   font-family: cambria italic;
+
+    
+   
+}
+
+
+header h3 {
+    font-family: The Night Watch;
+    color: #fdfefe ;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+
+}
+
+
+article img {
+    margin-bottom: 2%;
+    border-radius: 4%;
+}
+
+
+
+aside {
+    background-color: #7DBDD8;
+    padding-top: 1.2%;
+    padding-bottom: 117px;
+    
+}
+
+aside h3 {
+    font-family: The Night Watch;
+    color:  #fdfefe ;
+    font-size: 1.6em;
+    margin-bottom: 2.5%;
+    margin-top: 1.4%;
+    
+}
+
+div p{
+    font-family:  Fjalla One bold; 
+    font-size: 1em;
+    margin-bottom: 0.6%;
+    color: #515a5a;
+    
+}
+
+div img{
+    width :250px ;
+    height :150px;
+    margin-bottom: 2.5%;
+    border-radius: 4%; /* para hacer la foto redonda*/
+    box-shadow: 2%;
+}
+
+footer{
+    text-align: center;
+    background-color: #3A6C82;
+    padding-top: 60px;
+   
+}
+
+footer p{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 1em;
+   
+   
+}
+
+/*CONTACTA PÁGINA*/
+
+#formulario article, h2{
+    font-family:  Fjalla One bold; 
+    font-size: 1em;
+    color: #515a5a;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#formulario article, fieldset, legend {
+    text-align: center;
+    margin-left: 5px;
+}
+
+#seccionFotos{
+    background-color: #B4DAEB;
+    padding-right: 50%;
+    padding-bottom: 75%;
+   
+}
+
+#seccionFotos img{
+   height: 300px;
+   width: 70;
+   margin-left: 700px;
+   padding-top: 40px;
+   
+}
+
+#formulario article, fieldset, p{
+    color: #252727;
+}
+
+#seccionDestinos {
+    background-color: #B4DAEB;
+    padding-right: 50%;
+    padding-bottom: 100%;
+    padding-top: 40px;
+   
+}
+
+#seccionDestinos ul{
+    color:  #515a5a;
+   font-family: cambria italic;
+   text-align: center;
+   margin-left: 300px;
+   margin-bottom: 40px;
+   
+
+}
+
+#seccionDestinos img{
+    margin-top: 30px;
+    
+}
+
+#footer2 {
+    margin-bottom: 600px;
+}
+
